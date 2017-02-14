@@ -8,6 +8,6 @@ crew = {
   chief_engineer: "LaForge",
   doctor: "Crusher"
 }
-# Add your code below!
+# Creates a lambda that filters out everything after the letter "M".
 first_half = lambda { |k,v| v < 'M' }
 a_to_m = crew.select(&first_half)
